@@ -993,6 +993,10 @@ video {
   fill: #000;
 }
 
+.fill-lite-black{
+  fill: #090202
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
