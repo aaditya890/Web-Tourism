@@ -12,6 +12,10 @@
   --tw-content: '';
 }
 
+.form-container,
+.content-container {
+    min-height: 400px; /* Ensure both sections have a minimum height */
+}
 
 
 html,
