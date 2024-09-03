@@ -9,11 +9,11 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"/>
   <link rel="stylesheet" href="output.css">
-  <title>Home</title>
+  <title>INDIAN SOCIETY OF ANAESTHESIOLOGIST</title>
 </head>
 <body class="bg-gray-300">
 <!-- Navbar -->
-<nav class="p-4 shadow-md">
+<nav class="p-4 shadow-md sticky top-0 bg-white z-10">
   <div class="container mx-auto flex justify-between items-center">
       <!-- Logo/Brand -->
       <div class="flex items-center">
@@ -24,11 +24,11 @@
       <!-- Navigation Links -->
       <ul class="hidden lg:flex gap-10">
           <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
+          <li><a href="membarlist.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
+          <li><a href="#event" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
+          <!-- <li><a href="#office" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li> -->
+          <li><a href="#about" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
+          <li><a href="#contact-form" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
       </ul>
 
       <!-- Mobile Menu Button -->
@@ -42,10 +42,10 @@
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="hidden lg:hidden">
       <ul class="flex flex-col gap-4 mt-4">
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
+        <li><a href="index.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
+        <li><a href="membarlist.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
         <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li>
+        <!-- <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li> -->
         <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
         <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
       </ul>
@@ -59,12 +59,12 @@
           <!-- Content -->
           <h2 class="text-4xl font-bold text-white mb-4">INDIAN SOCIETY OF ANAESTHESIOLOGIST</h2>
           <p class="text-lg text-white mb-6">Providing top-notch healthcare services for you and your family.</p>
-          <a href="#" class="bg-blue-900 text-white px-6 py-3 rounded-full transition">Make an Appointment</a>
+          <a href="#contact-form" class="bg-blue-900 text-white px-6 py-3 rounded-full transition cursor-pointer">Make an Appointment</a>
       </div>
   </div>
 
   <!-- Overlay for better text visibility -->
-  <div class="absolute inset-0 fill-lite-black opacity-50"></div>
+  <!-- <div class="absolute inset-0 fill-lite-black opacity-50"></div> -->
 </section>
 
 <!-- Cards Section -->
@@ -119,7 +119,7 @@
 
 
 <!-- Form and Content -->
-<section class="container mx-auto py-12 flex flex-col md:flex-row items-stretch gap-8">
+<section class="container mx-auto pt-20 pb-12 flex flex-col md:flex-row items-stretch gap-8" id="contact-form">
   <!-- Form Container -->
   <div class="form-container w-full md:w-1/2 p-8  shadow-2xl rounded-lg flex flex-col justify-between">
       <div>
@@ -165,7 +165,7 @@
 </section>
 
   <!-- Docters detail section -->
-  <section class="container mx-auto py-6 px-3 md:px-0">
+  <section class="container mx-auto pt-20 pb-6 px-3 md:px-0" id="about">
     <div class="text-center mb-8">
       <h1 class="text-5xl text-blue-600 font-bold">19th ISACON CG 2024</h1>
       <p class="text-xl mt-2 text-2xl inline border-b-2  border-blue-600">Annual State Conference</p>
@@ -271,7 +271,7 @@
     </div>
    </section>
    <!-- Message desk -->
-   <section class="bg-gray-100">
+   <section class="bg-gray-100 pt-10" id="event">
     <div class="container mx-auto px-4">
       <!-- Message Desk -->
       <div class="bg-white p-6 rounded-lg shadow-md mb-8">
@@ -548,68 +548,16 @@
   </div>
 </section>
 
-<footer class="footer  text-black py-10">
-  <div class="footer-container container mx-auto px-6">
-    <div class="flex flex-col gap-10 md:flex-row md:gap-5 flex-wrap md:justify-between">
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Home</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Our Story</a></li>
-          <li><a href="#" class="hover:text-gray-700">Mission & Vision</a></li>
-          <li><a href="#" class="hover:text-gray-700">Careers</a></li>
-          <li><a href="#" class="hover:text-gray-700">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Message</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Office Bearers</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Member List</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Events</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Contact Us</h4>
-        <div class="social-links flex space-x-4">
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-facebook-circle-line"></i></a>
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-instagram-fill"></i></a>
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-twitter-fill"></i></a>
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-linkedin-box-fill"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="mt-10 text-center text-gray-500">
-      <p>&copy; © Copyright 2015 CGISA, Inc. All rights reserved.</p>
-    </div>
-  </div>
+<footer class="footer text-black py-10 px-20 bg-gray-200">
+
+  <ul class="flex justify-between flex-wrap gap-10">
+    <li><a href="index.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
+    <li><a href="membarlist.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
+    <li><a href="#message" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
+    <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li>
+    <li><a href="#about" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
+    <li><a href="#contact-form" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
+</ul>
 </footer>
   <script src="index.js"></script>
 </body>
