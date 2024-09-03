@@ -17,6 +17,14 @@
     min-height: 400px; /* Ensure both sections have a minimum height */
 }
 
+.message-container .error {
+  color: red;
+}
+
+.message-container .success {
+  color: green;
+}
+
 
 html,
 :host {
@@ -781,8 +789,12 @@ video {
   max-width: 80rem;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-\[450px\] {
-  width: 500px;
+  width: 400px;
 }
 
 .h-\[280px\] {
