@@ -7,14 +7,13 @@
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    rel="stylesheet"/>
   <link rel="stylesheet" href="output.css">
-  <title>Home</title>
+  <title>INDIAN SOCIETY OF ANAESTHESIOLOGIST</title>
 </head>
 <body class="bg-gray-300">
 <!-- Navbar -->
-<nav class="p-4 shadow-md">
+<nav class="p-4 shadow-md sticky top-0 bg-white z-10">
   <div class="container mx-auto flex justify-between items-center">
       <!-- Logo/Brand -->
       <div class="flex items-center">
@@ -25,11 +24,11 @@
       <!-- Navigation Links -->
       <ul class="hidden lg:flex gap-10">
           <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
-          <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
+          <li><a href="membarlist.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
+          <li><a href="#event" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
+          <!-- <li><a href="#office" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li> -->
+          <li><a href="#about" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
+          <li><a href="#contact-form" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
       </ul>
 
       <!-- Mobile Menu Button -->
@@ -43,12 +42,12 @@
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="hidden lg:hidden">
       <ul class="flex flex-col gap-4 mt-4">
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
-        <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
+        <li><a href="index.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
+        <li><a href="membarlist.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
+        <li><a href="#event" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
+        <!-- <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li> -->
+        <li><a href="#about" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
+        <li><a href="#contact-form" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
       </ul>
   </div>
 </nav>
@@ -60,20 +59,19 @@
           <!-- Content -->
           <h2 class="text-4xl font-bold text-white mb-4">INDIAN SOCIETY OF ANAESTHESIOLOGIST</h2>
           <p class="text-lg text-white mb-6">Providing top-notch healthcare services for you and your family.</p>
-          <a href="#" class="bg-blue-900 text-white px-6 py-3 rounded-full transition">Make an Appointment</a>
+          <a href="#contact-form" class="bg-blue-900 text-white px-6 py-3 rounded-full transition cursor-pointer">Make an Appointment</a>
       </div>
   </div>
 
   <!-- Overlay for better text visibility -->
-  <div class="absolute inset-0 fill-lite-black opacity-50"></div>
+  <!-- <div class="absolute inset-0 fill-lite-black opacity-50"></div> -->
 </section>
 
 <!-- Cards Section -->
 <section class="py-12">
-  <div class="container mx-auto flex justify-between gap-6">
-      
+  <div class="container mx-auto flex justify-center flex-wrap">
       <!-- Service 1 -->
-      <div class="w-1/4 p-6 rounded-lg shadow-lg hover:bg-blue-100 transition">
+      <div class="w-[350px] p-6 rounded-lg shadow-lg hover:bg-gray-200 transition">
           <div class="text-blue-900 mb-4 flex justify-center">
               <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 9.75L11.25 6H16.5L18 9.75H9.75zM5.25 21H9m0 0L7.5 16.5H12L10.5 21M19.5 10.5H15M7.5 10.5h-3"></path>
@@ -84,7 +82,7 @@
       </div>
       
       <!-- Service 2 -->
-      <div class="w-1/4 p-6 rounded-lg shadow-lg hover:bg-blue-100 transition">
+      <div class="w-[350px] p-6 rounded-lg shadow-lg hover:bg-gray-200 transition">
           <div class="text-blue-900 mb-4 flex justify-center">
               <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.75V19.25M4.75 12H19.25"></path>
@@ -95,7 +93,7 @@
       </div>
 
       <!-- Service 3 -->
-      <div class="w-1/4 p-6 rounded-lg shadow-lg hover:bg-blue-100 transition">
+      <div class="w-[350px] p-6 rounded-lg shadow-lg hover:bg-gray-200 transition">
           <div class="text-blue-900 mb-4 flex justify-center">
               <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.75V19.25M4.75 12H19.25"></path>
@@ -106,7 +104,7 @@
       </div>
 
       <!-- Award 1 -->
-      <div class="w-1/4 p-6 rounded-lg shadow-lg hover:bg-gray-200 transition">
+      <div class="w-[350px] p-6 rounded-lg shadow-lg hover:bg-gray-200 transition">
           <div class="text-blue-900 mb-4 flex justify-center">
               <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12l5 5L20 7"></path>
@@ -121,7 +119,7 @@
 
 
 <!-- Form and Content -->
-<section class="container mx-auto py-12 flex flex-col md:flex-row items-stretch gap-8">
+<section class="container mx-auto pt-20 pb-12 flex flex-col md:flex-row items-stretch gap-8" id="contact-form">
   <!-- Form Container -->
   <div class="form-container w-full md:w-1/2 p-8  shadow-2xl rounded-lg flex flex-col justify-between">
       <div>
@@ -130,27 +128,29 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div>
                       <label for="name" class="block text-gray-600 font-medium mb-2">Full Name</label>
-                      <input type="text" id="name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Full Name">
+                      <input type="text" id="name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Full Name" required>
                   </div>
                   <div>
-                      <label for="email" class="block text-gray-600 font-medium mb-2">Email Address</label>
+                      <label for="email" class="block text-gray-600 font-medium mb-2">Email Address (Optional)<label>
                       <input type="email" id="email" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email">
                   </div>
                   <div>
                       <label for="phone" class="block text-gray-600 font-medium mb-2">Phone Number</label>
-                      <input type="tel" id="phone" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Phone Number">
+                      <input type="tel" id="phone" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Phone Number" required>
                   </div>
                   <div>
                       <label for="date" class="block text-gray-600 font-medium mb-2">Preferred Appointment Date</label>
-                      <input type="date" id="date" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                      <input type="date" id="date" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
                   </div>
               </div>
               <div class="mb-6">
                   <label for="message" class="block text-gray-600 font-medium mb-2">Additional Notes</label>
                   <textarea id="message" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Any specific concerns or notes"></textarea>
               </div>
-              <button type="submit" class="w-full bg-blue-700 text-white p-4 rounded-lg font-semibold hover:bg-blue-800 transition">Book Appointment</button>
+              <button type="submit" class="w-full bg-blue-600 text-white p-4 rounded-lg font-semibold hover:bg-blue-800 transition">Book Appointment</button>
           </form>
+
+          <div class="message-container py-2"></div> 
       </div>
   </div>
 
@@ -165,9 +165,15 @@
 </section>
 
   <!-- Docters detail section -->
-  <section class="container mx-auto py-6 px-3 md:px-0">
-    <div class="flex flex-wrap gap-4">
-      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg">
+  <section class="container mx-auto pt-20 pb-6 px-3 md:px-0" id="about">
+    <div class="text-center mb-8">
+      <h1 class="text-5xl text-blue-600 font-bold">19th ISACON CG 2024</h1>
+      <p class="text-xl mt-2 text-2xl inline border-b-2  border-blue-600">Annual State Conference</p>
+      <p class="text-lg mt-1">Organized by Bilaspur Society of Anaesthesiologists & Dept. of Anesthesiology, CIMS, Bilaspur</p>
+      <p class="text-sm mt-1 text-lg">(Venue: Motel Bilaspur City, Near High Tech Bus Stand, Tifra, Raipur Road, Bilaspur)</p>
+  </div>
+    <div class="flex flex-wrap justify-center">
+      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg hover:bg-gray-200 transition">
         <div class="flex justify-center mb-4">
           <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. Vinit Kumar Srivastava" class="w-20 h-20 object-cover rounded-full">
         </div>
@@ -184,7 +190,7 @@
         </div>
       </div>
     
-      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg">
+      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg hover:bg-gray-200 transition">
         <div class="flex justify-center mb-4">
           <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. Bhavna Royzada" class="w-20 h-20 object-cover rounded-full">
         </div>
@@ -200,7 +206,7 @@
         </div>
       </div>
     
-      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg">
+      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg hover:bg-gray-200 transition">
         <div class="flex justify-center mb-4">
           <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. Miltan Debbarma" class="w-20 h-20 object-cover rounded-full">
         </div>
@@ -217,7 +223,7 @@
         </div>
       </div>
     
-      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg">
+      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg hover:bg-gray-200 transition">
         <div class="flex justify-center mb-4">
           <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. Bhavna Royzada" class="w-20 h-20 object-cover rounded-full">
         </div>
@@ -233,7 +239,7 @@
         </div>
       </div>
     
-      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg">
+      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg hover:bg-gray-200 transition">
         <div class="flex justify-center mb-4">
           <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. Shweta Kujur" class="w-20 h-20 object-cover rounded-full">
         </div>
@@ -248,157 +254,311 @@
         </div>
       </div>
 
-      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg">
+      <div class="w-[450px] h-[280px] border border-solid p-4 rounded-lg shadow-lg hover:bg-gray-200 transition">
         <div class="flex justify-center mb-4">
-          <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. Shweta Kujur" class="w-20 h-20 object-cover rounded-full">
+          <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="Dr. K.K.Sahare" class="w-20 h-20 object-cover rounded-full">
         </div>
         <div class="bg-blue-600 text-white p-2 text-center font-bold rounded">
-          Treasurer
+          Patron
         </div>
         <div class="card-body mt-2 text-center">
           <div class="doctor-details text-gray-800 text-sm">
-            <strong>Dr. Shweta Kujur</strong><br>
-            Associate Professor, Dept. of Anaesthesiology, CIMS, Bilaspur (C.G)
+            <strong>Dr. K.K.Sahare</strong><br>
+            Dean C.I.M.S , Bilaspur (C.G)
           </div>
         </div>
       </div>
     </div>
    </section>
+   <!-- Message desk -->
+   <section class="bg-gray-100 pt-10" id="event">
+    <div class="container mx-auto px-4">
+      <!-- Message Desk -->
+      <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <h3 class="text-5xl font-bold text-gray-800 mb-4 text-center  text-gray-800">Message Desk</h3>
+        <p class="text-gray-700 mb-4">
+          <strong class="text-xl">Dr. Rakesh Kr. Nigam</strong> (Prof & Head, Deptt of Anesthesiology CIMS Bilaspur)<br>
+          On behalf of the Bilaspur Society of Anaesthesiologists and Deptt of Anesthesiology C.I.M.S, Bilaspur, it is my great honour and pleasure to invite you to this conference and workshop. We trust that you will have a scientifically rewarding and pleasant experience. We look forward to welcoming you to this memorable event.
+        </p>
+        <p class="text-gray-700">
+          <strong class="text-xl">Dr. Vinit Kumar Srivastava</strong> (President, Bilaspur Society of Anesthesiologists)<br>
+          On behalf of the Bilaspur Society of Anaesthesiologists, I extend an invitation to you to join us at the upcoming CGISACON 2024 on the 21st and 22nd of September. This academic event promises a unique choice of topics offering great experiences and opportunities for professional growth.
+        </p>
 
-   <!-- Main Content Section -->
-<section class="py-12 bg-gray-100">
-  <div class="container mx-auto px-4">
-    <!-- Title -->
-    <div class="text-center mb-8">
-      <h2 class="text-4xl font-bold text-gray-800">19th CGISACON 2024 Paper Presentation Guidelines</h2>
-      <p class="text-lg text-gray-600 mt-4">Detailed guidelines for paper abstract submission and presentation.</p>
+        <div class="py-12">
+          <div class="container mx-auto px-4">
+            <!-- Program Highlights -->
+            <div class="mb-8">
+              <h2 class="text-4xl font-bold text-gray-800 text-center mb-6">Program Highlights</h2>
+              <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
+                <thead>
+                  <tr class="bg-gray-200 text-gray-800">
+                    <th class="py-3 px-6 text-left">Date</th>
+                    <th class="py-3 px-6 text-left">Event</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="border-t border-gray-300 py-3 px-6">21 September</td>
+                    <td class="border-t border-gray-300 py-3 px-6">
+                      Preconference Workshop, Banquet, Talk on Wealth Management
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="border-t border-gray-300 py-3 px-6">22 September</td>
+                    <td class="border-t border-gray-300 py-3 px-6">
+                      Conference, Free Paper, and Poster Presentation
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        
+            <!-- Detailed Programme -->
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <h3 class="text-3xl font-semibold text-gray-800 mb-4">Detailed Programme</h3>
+              <p class="text-gray-700 mb-4">
+                <strong>PreConference Handson Workshop (4 Stations):</strong> 21 Sept 2024
+              </p>
+              <ul class="list-disc pl-5 text-gray-700 mb-4">
+                <li>Basics of Mechanical Ventilation</li>
+                <li>USG of the Airway</li>
+                <li>Fibreoptic Intubation</li>
+                <li>Supraglottic Airway Devices</li>
+              </ul>
+              <p class="text-gray-700 mb-4">
+                <strong>Preconference Banquet:</strong> 21 Sept 2024, 8:30 p.m. onwards.
+              </p>
+              <p class="text-gray-700 mb-4">
+                Talk on "Investment ka Amrit kaal," by Investment Advisor and Wealth Management Consultants.
+              </p>
+              <p class="text-gray-700 mb-4">
+                <strong>Venue:</strong> Operation Theatre Complex, Deptt of Anaesthesia, C.I.M.S. Bilaspur
+              </p>
+              <p class="text-gray-700">
+                <strong>CONFERENCE - CGISACON 2024:</strong> 22 Sept 2024
+              </p>
+              <p class="text-gray-700">
+                <strong>Venue:</strong> Motel Bilaspur City, Near High Tech Bus Stand, Tifra, Raipur Road, Bilaspur
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
     </div>
+  </section>
 
+  <!-- CONFERENCE - CGISACON 2024 22 Sept 24 -->
+  <section class="bg-gray-100">
+    <div class="container mx-auto px-4">
+      <!-- Conference Schedule -->
+      <div class="bg-white p-6 rounded-lg mb-8">
+        <h2 class="text-4xl font-bold text-gray-800 text-center">CONFERENCE - CGISACON 2024</h2>
+        <p class="text-lg text-gray-600 text-center py-2">22nd September 2024</p>
+        <p class="text-lg text-gray-700 mb-6 text-center">Breakfast and Registration (<strong>8:30 A.M. - 9:00 A.M.</strong>)</p>
+
+        <!-- Timetable and Topics -->
+        <div class="space-y-8">
+          <!-- Hall 1 Schedule -->
+          <div>
+            <h3 class="text-3xl font-semibold text-gray-800 mb-4">Hall 1</h3>
+            <ul class="list-disc pl-5 text-gray-700 space-y-2">
+              <li class="text-lg my-2">Obstetric Haemorrhage: Identification of Risk Factors, Prevention, and Management.</li>
+              <li class="text-lg my-2">Blood and Blood Product Transfusion: When, What, and How much.</li>
+              <li class="text-lg my-2">USG of the Airway: Its Role in the Prediction of the Difficult Airway.</li>
+              <li class="text-lg my-2">Cannot Intubate, Cannot Ventilate: What Next?</li>
+              <li class="text-lg my-2">Management of Neurosurgical Emergencies.</li>
+              <li class="text-lg my-2">Cardiac Risk Stratification: A Cardiac Patient Coming in for Non-Cardiac Surgery.</li>
+              <li class="text-lg my-2">Paediatric Anesthesia: The Unique Challenges that Make it Different.</li>
+              <li class="text-lg my-2">Panel Discussion: Opioid-Free Anesthesia.</li>
+            </ul>
+          </div>
+
+          <!-- Hall 2 Schedule -->
+          <div>
+            <h3 class="text-3xl font-semibold text-gray-800 mb-4">Hall 2</h3>
+            <ul class="list-disc pl-5 text-gray-700 space-y-2">
+              <li class="text-lg my-2">Free Paper & Poster Presentation.</li>
+            </ul>
+          </div>
+
+          <!-- registration details -->
+        <div class="">
+          <div class="container mx-auto px-4">
+            <!-- Registration Details -->
+            <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+              <h2 class="text-4xl font-bold text-gray-800 text-center mb-6">Registration Details</h2>
+              
+              <div class="overflow-x-auto">
+                <table class="min-w-full bg-white border border-gray-200">
+                  <thead>
+                    <tr>
+                      <th class="py-2 px-4 border-b text-left font-semibold text-gray-700">Category</th>
+                      <th class="py-2 px-4 border-b text-left font-semibold text-gray-700">Event</th>
+                      <th class="py-2 px-4 border-b text-left font-semibold text-gray-700">Fees</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="py-2 px-4 border-b text-gray-700">Delegates</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Conference + Workshop</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Rs 4000/=</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 px-4 border-b text-gray-700">Delegates</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Conference</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Rs 3000/=</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 px-4 border-b text-gray-700">Post Graduate Students</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Conference + Workshop</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Rs 2500/=</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 px-4 border-b text-gray-700">Post Graduate Students</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Conference</td>
+                      <td class="py-2 px-4 border-b text-gray-700">Rs 2000/=</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 px-4 text-gray-700">Spot Registration (Conference)</td>
+                      <td class="py-2 px-4 text-gray-700"></td>
+                      <td class="py-2 px-4 text-gray-700">Rs 4000/=</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-gray-700 mt-4">
+          Registration is mandatory for all, including post-graduate students. Post-graduate registration must be accompanied by a letter from the Head of Deptt. Workshop seats are limited and are on a first-come, first-served basis.
+        </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Guidelines -->
+  <section class="">
+    <div class="container mx-auto px-4">
+      <!-- Registration Guidelines -->
+      <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Registration Guidelines</h2>
+        <ul class="list-disc list-inside text-gray-700">
+          <li class="mb-2"><strong>Last date for Registration:</strong> 5 Sept 2024</li>
+          <li class="mb-2"><strong>Bank Details for Registration:</strong>
+            <div class="ml-6">
+              <p>Bilaspur Society of Anaesthesiologists</p>
+              <p>Punjab National Bank, CIMS Hospital Campus</p>
+              <p><strong>Account Number:</strong> 6173000100020666</p>
+              <p><strong>IFSC Code:</strong> PUNB0617300</p>
+            </div>
+          </li>
+          <li class="mb-2">
+            <strong>For registration confirmation of conference/workshop, please contact:</strong> 
+            Dr. Shweta Kujur. Phone: <a href="tel:9827436819" class="text-blue-600">9827436819</a>. 
+            Please upload through WhatsApp a screenshot of payment made.
+          </li>
+          <li class="mb-2">
+            <strong>Website:</strong> <a href="http://www.cgisa.org" class="text-blue-600">www.cgisa.org</a>
+          </li>
+        </ul>
+
+         <!-- Free Paper/Poster Presentation -->
+      <div class="py-6">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Free Paper/Poster Presentation</h2>
+        <ul class="list-disc list-inside text-gray-700">
+          <li class="mb-2">For Free Paper/Poster Presentation, please contact Dr. Yasha Tiwari. Phone: <a href="tel:8830064312" class="text-blue-600">8830064312</a></li>
+          <li class="mb-2"><strong>Last Date for Free Paper/Poster submission:</strong> 5 Sept 2024</li>
+          <li class="mb-2">Free Paper/Poster have to be submitted at: <a href="mailto:cgisacon2024academics@gmail.com" class="text-blue-600">cgisacon2024academics@gmail.com</a></li>
+        </ul>
+        <img src="./img/qr-code.jpg" alt="" class="w-[350px]">
+      </div>
+      </div>  
+    </div>
+  </section>
+   <!-- Main Content Section -->
+<section class="pb-5">
+  <div class="container mx-auto px-4">
     <!-- Content -->
     <div class="space-y-8">
       <!-- Abstract Submission -->
       <div class="bg-white p-6 rounded-lg shadow-md">
+         <!-- Title -->
+    <div class="text-center mb-8">
+      <h2 class="text-4xl font-bold text-gray-800">19th CGISACON 2024 Paper Presentation Guidelines</h2>
+      <p class="text-lg text-gray-600 mt-4">Detailed guidelines for paper abstract submission and presentation.</p>
+    </div>
         <h3 class="text-3xl font-semibold text-gray-800">Guidelines for Paper Abstract Submission</h3>
-        <p class="text-gray-700 mt-4">Email for abstract submission: <a href="mailto:cgisacon2024academics@gmail.com" class="text-blue-500">cgisacon2024academics@gmail.com</a></p>
+        <p class="text-gray-700 mt-4 text-lg">Email for abstract submission: <a href="mailto:cgisacon2024academics@gmail.com" class="text-blue-500">cgisacon2024academics@gmail.com</a></p>
         <p class="text-gray-700 mt-2">Word Limit: 250-300 words (excluding Title/References)</p>
         <p class="text-gray-700 mt-2">Title Page should include:</p>
         <ul class="list-disc pl-5 mt-2 text-gray-700">
-          <li>Title</li>
-          <li>Name of presenter</li>
-          <li>Qualification</li>
-          <li>Mobile No</li>
-          <li>Email</li>
-          <li>Institute</li>
-          <li>Status</li>
+          <li class="text-lg my-2">Title</li>
+          <li class="text-lg my-2">Name of presenter</li>
+          <li class="text-lg my-2">Qualification</li>
+          <li class="text-lg my-2">Mobile No</li>
+          <li class="text-lg my-2">Email</li>
+          <li class="text-lg my-2">Institute</li>
+          <li class="text-lg my-2">Status</li>
         </ul>
         <p class="text-gray-700 mt-4">Undertaking Page: Confirm the scientific work is original and should be signed by the author.</p>
         <p class="text-gray-700 mt-4">Abstract Structure:</p>
         <ul class="list-disc pl-5 mt-2 text-gray-700">
-          <li>Introduction</li>
-          <li>Methodology</li>
-          <li>Statistical Analysis</li>
-          <li>Results</li>
-          <li>Conclusion</li>
+          <li class="text-lg my-2">Introduction</li>
+          <li class="text-lg my-2">Methodology</li>
+          <li class="text-lg my-2">Statistical Analysis</li>
+          <li class="text-lg my-2">Results</li>
+          <li class="text-lg my-2">Conclusion</li>
         </ul>
-        <p class="text-gray-700 mt-4">References: Include up to 5 relevant latest references.</p>
-      </div>
+        <p class="text-gray-700 mt-4 text-md">References: Include up to 5 relevant latest references.</p>
 
-      <!-- Eligibility and Submission -->
-      <div class="bg-white p-6 rounded-lg shadow-md">
+        <!-- Eligibility and Submission -->
+      <div class="py-4">
         <h3 class="text-3xl font-semibold text-gray-800">Eligibility and Submission</h3>
-        <p class="text-gray-700 mt-4">Presenter must be a Member of ISA.</p>
-        <p class="text-gray-700 mt-2">Abstracts must be submitted online by <strong>August 30, 2024</strong>.</p>
+        <p class="text-gray-700 text-lg my-2">Presenter must be a Member of ISA.</p>
+        <p class="text-gray-700 text-lg my-2">Abstracts must be submitted online by <strong>August 30, 2024</strong>.</p>
       </div>
 
-      <!-- Review Process -->
-      <div class="bg-white p-6 rounded-lg shadow-md">
-        <h3 class="text-3xl font-semibold text-gray-800">Review Process</h3>
-        <p class="text-gray-700 mt-4">Abstracts will be reviewed by the review committee for format, scientific content, and presentation (both speech and slides). The final decision will be at the discretion of the Abstract Review Committee. Presenters will be notified accordingly.</p>
-      </div>
+        <!-- Review Process -->
+        <div class="py4">
+          <h3 class="text-3xl font-semibold text-gray-800">Review Process</h3>
+          <p class="text-gray-700 text-lg my-2">Abstracts will be reviewed by the review committee for format, scientific content, and presentation (both speech and slides). The final decision will be at the discretion of the Abstract Review Committee. Presenters will be notified accordingly.</p>
+        </div>
+
+
+        
 
       <!-- General Instructions -->
-      <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="py-4">
         <h3 class="text-3xl font-semibold text-gray-800">General Instructions</h3>
         <ul class="list-disc pl-5 mt-4 text-gray-700">
-          <li>Presenter must be a member of ISA & must have registered for the conference.</li>
-          <li>Title should include the ISA logo and institutional logo (preferably at the top right corner).</li>
-          <li>Provide legends for tables and figures.</li>
-          <li>Use UK English uniformly (e.g., anaesthesia, haemoglobin).</li>
-          <li>Provide the full form of abbreviations at first use.</li>
-          <li>Perform a plagiarism check before submission.</li>
-          <li>Mention if the full paper is already published or submitted for publication.</li>
+          <li class="text-lg my-2">Presenter must be a member of ISA & must have registered for the conference.</li>
+          <li class="text-lg my-2">Title should include the ISA logo and institutional logo (preferably at the top right corner).</li>
+          <li class="text-lg my-2">Provide legends for tables and figures.</li>
+          <li class="text-lg my-2">Use UK English uniformly (e.g., anaesthesia, haemoglobin).</li>
+          <li class="text-lg">Provide the full form of abbreviations at first use.</li>
+          <li class="text-lg my-2">Perform a plagiarism check before submission.</li>
+          <li class="text-lg my-2">Mention if the full paper is already published or submitted for publication.</li>
         </ul>
+      </div>
       </div>
     </div>
   </div>
 </section>
 
-<footer class="footer  text-black py-10">
-  <div class="footer-container container mx-auto px-6">
-    <div class="footer-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 flex justify-between">
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Home</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Our Story</a></li>
-          <li><a href="#" class="hover:text-gray-700">Mission & Vision</a></li>
-          <li><a href="#" class="hover:text-gray-700">Careers</a></li>
-          <li><a href="#" class="hover:text-gray-700">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Message</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Office Bearers</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Member List</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Events</h4>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-gray-700">Home</a></li>
-          <li><a href="#" class="hover:text-gray-700">Rooms</a></li>
-          <li><a href="#" class="hover:text-gray-700">Car Booking</a></li>
-          <li><a href="#" class="hover:text-gray-700">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4 class="text-xl font-semibold mb-4">Contact Us</h4>
-        <div class="social-links flex space-x-4">
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-facebook-circle-line"></i></a>
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-instagram-fill"></i></a>
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-twitter-fill"></i></a>
-          <a href="#" class="text-2xl hover:text-gray-700"><i class="ri-linkedin-box-fill"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="mt-10 text-center text-gray-500">
-      <p>&copy; © Copyright 2015 CGISA, Inc. All rights reserved.</p>
-    </div>
-  </div>
+<footer class="footer text-black py-10 px-20 bg-gray-200">
+
+  <ul class="flex justify-between flex-wrap gap-10">
+    <li><a href="index.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Home</a></li>
+    <li><a href="membarlist.html" class="text-gray-800 hover:text-blue-600 transition font-semibold">Members</a></li>
+    <li><a href="#message" class="text-gray-800 hover:text-blue-600 transition font-semibold">Events</a></li>
+    <li><a href="#" class="text-gray-800 hover:text-blue-600 transition font-semibold">Office's</a></li>
+    <li><a href="#about" class="text-gray-800 hover:text-blue-600 transition font-semibold">CGISA</a></li>
+    <li><a href="#contact-form" class="text-gray-800 hover:text-blue-600 transition font-semibold">Contact</a></li>
+</ul>
 </footer>
-
-
-
   <script src="index.js"></script>
 </body>
 </html>
